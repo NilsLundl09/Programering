@@ -21,7 +21,7 @@ print(X * Y)
 #BMI kalkylator
 vikt = float(input("Skriv din vikt här (kg):"))
 längd = float(input("Skriv din längd här (cm):"))
-bmi = vikt * (längd ** 2)
+bmi = vikt / (längd ** 2)
 print("Ditt BMI är:")
 print(bmi)
 
