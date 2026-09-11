@@ -40,3 +40,4 @@ try:
         print(random.randint(1,6))
 except ValueError:
     print("Fel, skriv siffror")
+print("Slut")
